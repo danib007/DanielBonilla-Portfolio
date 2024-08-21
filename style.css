@@ -1,0 +1,289 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2D3855;
+    color: #FAF7F5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+h4 {
+    color: #485784;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 10px 0 20px 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+/* Navbar */
+nav {
+    background-color: #150E0E;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.profile-photo {
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    border: solid 10px #7D7D78;
+    /* position: relative;
+    animation: moveLeft 2s ease-in-out forwards; */
+}
+
+/* Animation for moving the photo to the left */
+/* @keyframes moveLeft {
+    0% {
+        left: 0%; /* Start at the center 
+        transform: translateX(-0%);
+    }
+    100% {
+        left: -35%; /* Move to the left 
+        transform: translateX(0);
+    }
+} */
+
+/* Contact Buttons */
+/* .contact-buttons {
+    margin-top: 20px;
+    opacity: 0; /* Start hidden 
+    animation: moveUp 1s ease-in-out forwards;
+    animation-delay: 2s; /* Delay until the photo animation completes 
+} */
+
+/* Animation for moving the text up */
+/* @keyframes moveUp {
+    0% {
+        transform: translateY(50px); /* Start below 
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0); /* End at the original position 
+        opacity: 1;
+    }
+} */
+
+
+.name {
+    margin: 0;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 100;
+    font-size: 3.2rem;
+    color: #7D7D78;
+    text-shadow: 1px 3px #150E0E;
+}
+
+.job-title {
+    margin-top: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.contact-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.contact-buttons button i {
+    margin-right: 8px;
+}
+
+
+.contact-buttons button:hover {
+    background-color: #555;
+}
+
+.email-btn {
+    background-color: #7D7D78;
+}
+
+.linkedin-btn {
+    background-color: #2864AC;
+}
+
+/* About Section (Home Page) */
+.about {
+    padding: 20px;
+    text-align: center;
+    background-color: #150E0E;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+/* Projects Section */
+.projects {
+    padding: 20px;
+    text-align: center;
+}
+
+.project-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card button {
+    padding: 10px 30px;
+    margin: 2rem;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card button:hover {
+    background-color: #555;
+}
+
+.project-details__content {
+  padding: 8rem 0;
+  max-width: 90rem;
+  margin: auto; }
+
+.project-details__content-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 2rem; 
+    color: #333;
+}
+
+    @media only screen and (max-width: 37.5em) {
+      .project-details__content-title {
+        font-size: 1.5rem; } }
+
+.skills {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+    .skills__skill {
+      padding: .5rem 1rem;
+      margin-bottom: 1rem;
+      margin-right: 1rem;
+      font-size: 1rem;
+      background: rgba(153, 153, 153, 0.2);
+      border-radius: 5px;
+      font-weight: 600;
+      color: #333; }
+
+/* About Me Page - Business Card */
+.business-card {
+    padding: 20px;
+    background-color: #150E0E;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.business-card img {
+    width: 21em;
+    height: 30em;
+    border-radius: 10%;
+    margin: 0;
+}
+
+.business-card h2 {
+    margin: 5px 0;
+    color: #485784;
+    font-size: 2rem;
+}
+
+.business-card h3 {
+    margin: 5px 0;
+    color: #777;
+}
+
+.business-card .about-me,
+.business-card .interests {
+    text-align: left;
+    padding: 20px;
+}
+
+
+/* Media Queries for Desktop */
+@media (min-width: 768px) {
+    .project-cards {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card {
+        width: 30%;
+    }
+
+    .business-card {
+        max-width: 600px;
+        margin: 20px auto;
+    }
+}
